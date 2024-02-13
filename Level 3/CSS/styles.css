@@ -1,0 +1,59 @@
+body {
+    font-family: 'Brush Script MT', Cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.calculator {
+    
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    border: 2px;
+    font-family: cursive;
+    outline: 3px;
+    background: none;
+}
+
+.buttons {
+    
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    font-family: cursive;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: #3b86e0;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+button:hover {
+    background-color: #8924cc;
+}
+
+.operator {
+    color: #231e7f;
+    background-color: #f7931e;
+}
+
+.clear {
+    color: #000000;
+    background-color: #c82333;
+}
